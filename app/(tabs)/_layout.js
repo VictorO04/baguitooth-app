@@ -26,6 +26,9 @@ export default function TabsLayout() {
           headerTitle: "Conteúdo",
         }}
       />
+      <Tabs.Screen
+        name="home"
+      />
     </Tabs>
   );
 }
