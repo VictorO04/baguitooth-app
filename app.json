@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "baguitooth-app",
+    "slug": "baguitooth-app",
+    "scheme": "baguitooth-app",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
