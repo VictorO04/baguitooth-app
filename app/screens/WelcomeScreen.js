@@ -1,11 +1,11 @@
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
-import { cores } from "../cores";
+import { cores } from "../data/cores";
 
 export default function WelcomeScreen({ aoEntrar }) {
     return (
         <View style={styles.tela}>
             <Text style={styles.marca}>SENAI</Text>
-            <Text style={styles.titulo}>Laboratório Inteligente</Text>
+            <Text style={styles.titulo}>BaguiTooth</Text>
             <Text style={styles.subtitulo}>Controle o laboratório de qualquer lugar.</Text>
             <TouchableOpacity style={styles.botao} onPress={aoEntrar}>
                 <Text style={styles.textoBotao}>Entrar</Text>

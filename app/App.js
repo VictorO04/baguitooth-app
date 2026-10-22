@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { StatusBar } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import WelcomeScreen from "./screens/WelcomeScreen";
 import DispositivosScreen from "./screens/DispositivosScreen";
 
